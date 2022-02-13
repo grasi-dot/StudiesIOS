@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,9 @@
 		91D7CFE827B87AC50070AA6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D7CFE627B87AC50070AA6A /* Main.storyboard */; };
 		91D7CFEA27B87ACB0070AA6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D7CFE927B87ACB0070AA6A /* Assets.xcassets */; };
 		91D7CFED27B87ACB0070AA6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D7CFEB27B87ACB0070AA6A /* LaunchScreen.storyboard */; };
+		91D7CFF627B87CAA0070AA6A /* ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D7CFF527B87CAA0070AA6A /* ViewCode.swift */; };
+		91D7CFF827B87E420070AA6A /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D7CFF727B87E420070AA6A /* FirstScreenViewController.swift */; };
+		91D7CFFA27B88F7E0070AA6A /* FirstScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D7CFF927B88F7E0070AA6A /* FirstScreenTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		91D7CFE927B87ACB0070AA6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91D7CFEC27B87ACB0070AA6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91D7CFEE27B87ACB0070AA6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91D7CFF527B87CAA0070AA6A /* ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCode.swift; sourceTree = "<group>"; };
+		91D7CFF727B87E420070AA6A /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
+		91D7CFF927B88F7E0070AA6A /* FirstScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		91D7CFDF27B87AC50070AA6A /* FirstApp */ = {
 			isa = PBXGroup;
 			children = (
+				91D7CFF427B87C550070AA6A /* FirstScreen */,
 				91D7CFE027B87AC50070AA6A /* AppDelegate.swift */,
 				91D7CFE227B87AC50070AA6A /* SceneDelegate.swift */,
 				91D7CFE427B87AC50070AA6A /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				91D7CFEE27B87ACB0070AA6A /* Info.plist */,
 			);
 			path = FirstApp;
+			sourceTree = "<group>";
+		};
+		91D7CFF427B87C550070AA6A /* FirstScreen */ = {
+			isa = PBXGroup;
+			children = (
+				91D7CFF527B87CAA0070AA6A /* ViewCode.swift */,
+				91D7CFF727B87E420070AA6A /* FirstScreenViewController.swift */,
+				91D7CFF927B88F7E0070AA6A /* FirstScreenTableViewCell.swift */,
+			);
+			path = FirstScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +119,7 @@
 				};
 			};
 			buildConfigurationList = 91D7CFD827B87AC50070AA6A /* Build configuration list for PBXProject "FirstApp" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -139,7 +156,10 @@
 			files = (
 				91D7CFE527B87AC50070AA6A /* ViewController.swift in Sources */,
 				91D7CFE127B87AC50070AA6A /* AppDelegate.swift in Sources */,
+				91D7CFFA27B88F7E0070AA6A /* FirstScreenTableViewCell.swift in Sources */,
 				91D7CFE327B87AC50070AA6A /* SceneDelegate.swift in Sources */,
+				91D7CFF627B87CAA0070AA6A /* ViewCode.swift in Sources */,
+				91D7CFF827B87E420070AA6A /* FirstScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,9 +11,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func openClicked(_ sender: UIButton) {
+        let vc = FirstScreenViewController()
+        self.present(vc, animated: true, completion: nil)
+    }
 }
 
